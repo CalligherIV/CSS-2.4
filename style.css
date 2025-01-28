@@ -1,0 +1,53 @@
+* {
+    background-color: rgb(230, 197, 76);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Ribeye';
+    font-size: 60px;
+}
+
+p.subtitulo {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+span.italic {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+span.negro {
+    font-weight: bold;
+}
+
+p.latin {
+    margin: 0;
+    font-family: 'Lobster';
+    font-size: 30px;
+  }
+  
+p.espanol {
+    margin: 0 0 3rem;
+    color: white;
+    font-family: 'Just Another Hand';
+    text-align: right;
+    font-size: 50px;
+  }
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Just Another Hand';
+    src: url(Just_Another_Hand/JustAnotherHand-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Ribeye';
+    src: url(Ribeye_Marrow/RibeyeMarrow-Regular.ttf);
+}
